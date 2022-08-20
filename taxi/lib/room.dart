@@ -45,7 +45,7 @@ class _RoomPageState extends State<RoomPage> {
     );
   }
 
-  ////(部屋の中が満室じゃなかったら時用の)自分の名前を１度だけ追加して、このプログラムの中に用意した在室者リストに全員を追加
+  ////(部屋の中が満室じゃなかったら時用の)自分の名前を１度だけ追加してこのプログラムの中に用意した在室者リストに全員を追加
   void joinandcreateroom(){
     //FirebaseFirestore.instance.collection("rooms").snapshots();
       String roomID = findAndCreateRoom();
