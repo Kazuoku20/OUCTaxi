@@ -3,6 +3,7 @@ import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:taxi/room.dart';
 
+
 Future<void> main() async{
   await Firebase.initializeApp(
     options: const FirebaseOptions(
@@ -52,10 +53,10 @@ class _MyHomePageState extends State<MyHomePage> {
 
   void _incrementCounter() {
     setState(() {
-
       _counter++;
     });
   }
+
 
   List<String>members=["佐藤栄作","奥山和樹","吉岡晃汰","武市和真"];
 
